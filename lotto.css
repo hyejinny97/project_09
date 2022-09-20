@@ -1,0 +1,106 @@
+/* 초기화 */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 헤더 */
+.lotto-header {
+  margin: 1rem;
+}
+.title {
+  text-align: center;
+}
+
+/* 메인 */
+@media screen and (width <= 768px) {
+  .main-container {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main-container {
+    width: 70%;
+  }
+}
+.main-container {
+  margin: 2rem auto;
+
+}
+
+/* 폼 */
+.lotto-form {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cnt-select-label {
+  margin-right: 0.5rem;
+}
+#cnt-select {
+  margin-right: 3rem;
+  padding: 0.2rem;
+}
+.lotto-btn {
+  padding: 0.2rem;
+  border: 1px rgb(253, 221, 135) solid;
+  border-radius: 0.5rem;
+  background-color: rgb(253, 221, 135);
+}
+
+/* 로또 결과 */
+.lotto-main {
+  padding: 1rem;
+  margin: 0 auto;
+  min-height: 20rem;
+  border: 1px solid rgba(151, 149, 149, 0.267);
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.05);
+}
+.lotto-main h3 {
+  text-align: center;
+}
+.datetime {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.ball-container {
+  width: 90%;
+  margin: 1rem auto;
+  border: 1px solid rgba(253, 221, 135, 0.5);
+}
+.ball-container h4 {
+  text-align: center;
+  color: rgb(245, 180, 2);
+  background-color: rgba(253, 221, 135, 0.5);
+}
+.ball-list {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.ball {
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  /* background-color: bisque; */
+  border-radius: 50%;
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.ball:not(:last-child) {
+  margin-right: 0.5rem;
+}
