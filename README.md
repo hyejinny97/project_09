@@ -39,7 +39,7 @@
 
 ![](gif/lotto.gif)
 
-- 깃헙 페이지 링크: <>
+- 깃헙 페이지 링크: <https://hyejinny97.github.io/project_09/>
 
 
 
